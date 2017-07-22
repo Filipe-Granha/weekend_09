@@ -2,20 +2,18 @@ package ShoppingBasketManagement;
 
 import Behaviours.Buyable;
 
-public class Chicken extends Items implements Buyable {
+public class Pasta extends Items implements Buyable{
 
 
-
-    public Chicken(String name) { // constructor
+    public Pasta(String name) { // constructor
         super(name);
     }
 
     public int price() {
-        return 15;
+        return 5;
     }
 
     public boolean twoForOne() {
-        return true;
+        return false;
     }
-
 }
