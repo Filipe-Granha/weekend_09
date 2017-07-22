@@ -1,7 +1,4 @@
-package ShoppingBasketManagement;
-
 import ShoppingBasketManagement.Banana;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -17,14 +14,24 @@ public class BananaTest {
     @Before
     public void setUp() throws Exception {
         banana = new Banana("bananita");
-        //protected is not accessible outside package Animals
-        //dog.age
     }
 
     @Test
     public void testGetName() {
         String name = banana.getName();
         assertEquals("bananita", name);
+    }
+
+
+    @Test
+    public void testPrice() {
+        assertEquals(10, banana.price());
+    }
+
+
+    @Test
+    public void testTwoForOne() {
+        assertEquals(false, banana.twoForOne());
     }
 
 }
