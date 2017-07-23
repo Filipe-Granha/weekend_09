@@ -11,7 +11,7 @@ Chicken chicken;
         super(name);
     }
 
-    public int price() {
+    public float price() {
         return 15;
     }
 

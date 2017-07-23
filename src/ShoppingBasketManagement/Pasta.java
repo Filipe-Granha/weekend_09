@@ -13,7 +13,7 @@ public class Pasta extends Items implements Buyable{
         super(name);
     }
 
-    public int price() {
+    public float price() {
         return 5;
     }
 

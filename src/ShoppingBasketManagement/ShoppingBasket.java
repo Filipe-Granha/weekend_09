@@ -42,6 +42,20 @@ public class ShoppingBasket {
         this.basket.clear();
     }
 
+
+    public float calculateTotalValue() {
+        float count = 0;
+        for(Buyable item : this.basket) {
+            if(item.twoForOne() == false) {
+               count += item.price();
+            }
+            else count += item.price()/2; // word 'else' has to be there
+        }
+        return count;
+    }
+
+
+
 }
 
 

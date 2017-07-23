@@ -21,7 +21,7 @@ public class ChickenTest {
 
     @Test
     public void testPrice() {
-        assertEquals(15, chicken.price());
+        assertEquals(15.00, chicken.price(), 0.0);
     }
 }
 

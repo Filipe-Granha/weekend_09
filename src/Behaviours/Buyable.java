@@ -2,8 +2,8 @@ package Behaviours;
 
 public interface Buyable {
 
-    int price();
+    float price();
     boolean twoForOne();
-//    int applyTwoForOne();
+
 
 }

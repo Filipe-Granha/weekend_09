@@ -25,7 +25,7 @@ public class BananaTest {
 
     @Test
     public void testPrice() {
-        assertEquals(10, banana.price());
+       assertEquals(10, banana.price(), 0.0);
     }
 }
 

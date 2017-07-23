@@ -20,7 +20,7 @@ public class PastaTest {
 
     @Test
     public void testGetPrice() {
-        assertEquals(5, pasta.price());
+        assertEquals(5.00, pasta.price(), 0.0);
     }
 
 }

@@ -10,7 +10,7 @@ Banana banana;
         super(name);
     }
 
-    public int price() {
+    public float price() {
         return 10;
     }
 
