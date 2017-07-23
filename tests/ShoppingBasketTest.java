@@ -68,4 +68,13 @@ public class ShoppingBasketTest {
         basket.removeAllItems();
         assertEquals(0, basket.itemsCount());
     }
+
+    @Test
+    public void testCanCalculateTotalValue() {
+        basket.addsAndDecidesTwoForOne(pasta);
+        assertEquals(5, basket.calculateTotalValue());
+    }
+
+
+
 }

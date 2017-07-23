@@ -42,7 +42,7 @@ public class ShoppingBasket {
         this.basket.clear();
     }
 
-    }
+}
 
 
 
