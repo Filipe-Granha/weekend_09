@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd52e85-103c-4ccc-8fb2-15336906e160" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/ShoppingBasketCodeTest/ShoppingBasketTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behaviours/Buyable.java" afterPath="$PROJECT_DIR$/src/Behaviours/Buyable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BananaTest.java" afterPath="$PROJECT_DIR$/tests/BananaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ChickenTest.java" afterPath="$PROJECT_DIR$/tests/ChickenTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/PastaTest.java" afterPath="$PROJECT_DIR$/tests/PastaTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ShoppingBasketTest.java" afterPath="$PROJECT_DIR$/tests/ShoppingBasketTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,17 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="79" column="107" lean-forward="false" selection-start-line="79" selection-start-column="107" selection-end-line="79" selection-end-column="107" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,9 +40,14 @@
       <file leaf-file-name="Items.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,12 +55,12 @@
       <file leaf-file-name="ShoppingBasketTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ShoppingBasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="94" column="67" lean-forward="false" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+            <state relative-caret-position="1425">
+              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,10 +69,12 @@
       <file leaf-file-name="ChickenTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/ChickenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
               </folding>
@@ -72,78 +82,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="PastaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/PastaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1500814005000" expanded="true" signature="57025:57067" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57025:57084" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57025:57102" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57025:57115" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57025:57130" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57165:59330" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57178:59315" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57232:57527" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57251:57512" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57314:57492" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57354:57458" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57375:57436" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57577:57904" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57596:57889" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57691:57869" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57731:57835" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57752:57813" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57955:58220" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="57974:58205" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58007:58185" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58047:58151" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58068:58129" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58263:58569" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58282:58554" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58356:58534" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58396:58500" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58417:58478" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58620:58984" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58639:58969" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58732:58949" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58772:58915" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="58793:58893" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="59036:59301" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="59055:59286" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="59088:59266" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="59128:59232" ph="..." />
-                <marker date="1500814005000" expanded="true" signature="59149:59210" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Banana.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingBasketCodeTest.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShoppingBasketCodeTest.iml">
+      <file leaf-file-name="Banana.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BananaTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/BananaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,15 +142,15 @@
       <file leaf-file-name="Chicken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,15 +159,15 @@
       <file leaf-file-name="Pasta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,14 +203,14 @@
         <option value="$PROJECT_DIR$/tests/ShoppingBasketManagement/ChickenTest.java" />
         <option value="$PROJECT_DIR$/tests/ShoppingBasketManagement/PastaTest.java" />
         <option value="$PROJECT_DIR$/tests/ShoppingBasketManagement/ShoppingBasketTest.java" />
+        <option value="$PROJECT_DIR$/src/Behaviours/Buyable.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java" />
+        <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java" />
-        <option value="$PROJECT_DIR$/tests/BananaTest.java" />
         <option value="$PROJECT_DIR$/tests/ChickenTest.java" />
         <option value="$PROJECT_DIR$/tests/PastaTest.java" />
-        <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java" />
-        <option value="$PROJECT_DIR$/src/Behaviours/Buyable.java" />
+        <option value="$PROJECT_DIR$/tests/BananaTest.java" />
         <option value="$PROJECT_DIR$/tests/ShoppingBasketTest.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" />
       </list>
@@ -487,34 +468,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 11m 56s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 56m 16s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 19m 36s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 56m 33s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 27m 56s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 58m 14s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 30m 44s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 58m 58s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 33m 00s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 00m 28s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 42m 28s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 07m 32s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 44m 06s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 07m 44s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 44m 33s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 08m 25s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 45m 15s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 09m 31s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 13h 46m 48s.xml">
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 14h 09m 41s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -563,11 +544,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,13 +557,12 @@
         <state relative-caret-position="150">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +571,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,12 +585,12 @@
         <state relative-caret-position="150">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -616,12 +600,12 @@
         <state relative-caret-position="195">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,11 +631,10 @@
         <state relative-caret-position="30">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,7 +643,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,13 +657,12 @@
         <state relative-caret-position="180">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,12 +672,12 @@
         <state relative-caret-position="195">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -700,12 +687,12 @@
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -775,43 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/BananaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/PastaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShoppingBasketCodeTest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -825,63 +775,42 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500814005000" expanded="true" signature="57025:57067" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57025:57084" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57025:57102" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57025:57115" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57025:57130" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57165:59330" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57178:59315" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57232:57527" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57251:57512" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57314:57492" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57354:57458" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57375:57436" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57577:57904" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57596:57889" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57691:57869" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57731:57835" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57752:57813" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57955:58220" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="57974:58205" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58007:58185" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58047:58151" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58068:58129" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58263:58569" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58282:58554" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58356:58534" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58396:58500" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58417:58478" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58620:58984" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58639:58969" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58732:58949" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58772:58915" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="58793:58893" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="59036:59301" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="59055:59286" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="59088:59266" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="59128:59232" ph="..." />
-            <marker date="1500814005000" expanded="true" signature="59149:59210" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/ChickenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <marker date="1500815379000" expanded="true" signature="55702:55719" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55702:55737" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55702:55750" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55702:55765" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55800:57965" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55813:57950" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55867:56162" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55886:56147" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55949:56127" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="55989:56093" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56010:56071" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56212:56539" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56231:56524" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56326:56504" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56366:56470" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56387:56448" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56590:56855" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56609:56840" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56642:56820" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56682:56786" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56703:56764" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56898:57204" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56917:57189" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="56991:57169" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57031:57135" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57052:57113" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57255:57619" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57274:57604" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57367:57584" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57407:57550" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57428:57528" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57671:57936" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57690:57921" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57723:57901" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57763:57867" ph="..." />
+            <marker date="1500815379000" expanded="true" signature="57784:57845" ph="..." />
           </folding>
         </state>
       </provider>
@@ -894,59 +823,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java">
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java">
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/BananaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ChickenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/PastaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ShoppingBasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="94" column="67" lean-forward="false" selection-start-line="94" selection-start-column="67" selection-end-line="94" selection-end-column="67" />
+        <state relative-caret-position="1425">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java">
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="79" column="107" lean-forward="false" selection-start-line="79" selection-start-column="107" selection-end-line="79" selection-end-column="107" />
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>

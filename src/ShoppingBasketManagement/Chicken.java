@@ -5,10 +5,8 @@ import Behaviours.Buyable;
 public class Chicken extends Items implements Buyable {
 
 
-Chicken chicken;
-
-    public Chicken(String name) { // constructor
-        super(name);
+    public Chicken(String chickenName) { // constructor
+        super(chickenName);
     }
 
     public float price() {

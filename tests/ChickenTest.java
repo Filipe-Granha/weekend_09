@@ -26,15 +26,3 @@ public class ChickenTest {
 }
 
 
-
-
-
-
-
-//    @Test
-//    public void testTwoForOne() {
-//        assertEquals(2, chicken.applyTwoForOne());
-//    }
-
-
-

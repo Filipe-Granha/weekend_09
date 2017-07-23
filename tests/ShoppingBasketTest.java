@@ -8,10 +8,10 @@ import static org.junit.Assert.*;
 
 public class ShoppingBasketTest {
 
-    ShoppingBasket basket;
-    Banana banana;
-    Chicken chicken;
-    Pasta pasta;
+    private ShoppingBasket basket;
+    private Banana banana;
+    private Chicken chicken;
+    private Pasta pasta;
 
 
 
@@ -30,13 +30,13 @@ public class ShoppingBasketTest {
     }
 
     @Test
-    public void testNoTwoForOne() {
+    public void testHasNoTwoForOne() {
         basket.addsAndDecidesTwoForOne(banana);
         assertEquals(1, basket.itemsCount());
     }
 
     @Test
-    public void testTwoForOne() {
+    public void testHasTwoForOne() {
         basket.addsAndDecidesTwoForOne(chicken);
         assertEquals(2, basket.itemsCount());
     }

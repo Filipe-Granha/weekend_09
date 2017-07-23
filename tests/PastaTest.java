@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 
 public class PastaTest {
 
+
     private Pasta pasta;
 
     @Before
@@ -24,14 +25,4 @@ public class PastaTest {
     }
 
 }
-
-
-
-
-
-
-//    @Test
-//    public void testGetTwoForOne() {
-//        assertEquals(1, pasta.applyTwoForOne());
-//    }
 

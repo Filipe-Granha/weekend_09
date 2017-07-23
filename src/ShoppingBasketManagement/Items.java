@@ -2,12 +2,12 @@ package ShoppingBasketManagement;
 
 public abstract class Items {
 
-    String name;
+    private String name;
 
 
 
-    public Items(String name) { // constructor
-        this.name = name;
+    public Items(String itemName) { // constructor
+        this.name = itemName;
     }
 
     public String getName() {

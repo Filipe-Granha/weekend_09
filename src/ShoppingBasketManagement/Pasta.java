@@ -5,12 +5,8 @@ import Behaviours.Buyable;
 public class Pasta extends Items implements Buyable{
 
 
-
-    Pasta pasta;
-
-
-    public Pasta(String name) { // constructor
-        super(name);
+    public Pasta(String pastaName) { // constructor
+        super(pastaName);
     }
 
     public float price() {

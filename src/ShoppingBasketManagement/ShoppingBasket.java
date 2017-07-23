@@ -1,7 +1,6 @@
 package ShoppingBasketManagement;
 
 import Behaviours.Buyable;
-
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
@@ -26,7 +25,7 @@ public class ShoppingBasket {
 
     public void addsAndDecidesTwoForOne(Buyable item) {
 
-            if(item.twoForOne() == true){
+            if(item.twoForOne()){
                 this.basket.add(item);
                 this.basket.add(item);
             }
@@ -50,7 +49,7 @@ public class ShoppingBasket {
     public float calculateTotalValueBeforePriceDiscounts() {
         float total = 0;
         for(Buyable item : this.basket) {
-            if(item.twoForOne() == false) {
+            if(!item.twoForOne()) {
                total += item.price();
             }
             else total += item.price()/2; // word 'else' has to be there
@@ -73,7 +72,7 @@ public class ShoppingBasket {
     public BigDecimal useLoyaltyCardForFinalDiscount() {
         float count = 0;
         float total = calculateTotalValueWithMoreThan20PoundsDiscount();
-        if(this.loyaltyCard == true) {
+        if(this.loyaltyCard) {
             count += total - total*0.02;
         }
         else count = total;

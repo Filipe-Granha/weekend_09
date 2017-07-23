@@ -4,12 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-
 public class BananaTest {
 
 
     private Banana banana;
-
 
     @Before
     public void setUp() throws Exception {
@@ -22,20 +20,8 @@ public class BananaTest {
         assertEquals("bananita", name);
     }
 
-
     @Test
     public void testPrice() {
        assertEquals(10, banana.price(), 0.0);
     }
 }
-
-
-
-
-
-
-//    @Test
-//    public void testTwoForOne() {
-//        assertEquals(1, banana.applyTwoForOne());
-//    }
-
