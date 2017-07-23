@@ -9,11 +9,12 @@ import java.util.ArrayList;
 public class ShoppingBasket {
 
     private ArrayList<Buyable> basket;
-    private boolean LoyaltyCard;
+    private boolean loyaltyCard;
 
 
-    public ShoppingBasket() {
+    public ShoppingBasket(boolean loyaltyCard) {
         this.basket = new ArrayList<Buyable>();
+        this.loyaltyCard = loyaltyCard;
     }
 
 
@@ -64,6 +65,18 @@ public class ShoppingBasket {
             count +=  total - total*0.1;
         }
         else count = calculateTotalValueBeforeDiscounts();
+        return count;
+    }
+
+
+    public float useLoyaltyCardForFinalDiscount() {
+        float count = 0;
+        float total = calculateTotalValueWithMoreThan20PoundsDiscount();
+        if(this.loyaltyCard == true) {
+            count += total - total*0.02;
+        }
+        else count = calculateTotalValueWithMoreThan20PoundsDiscount();
+
         return count;
     }
 

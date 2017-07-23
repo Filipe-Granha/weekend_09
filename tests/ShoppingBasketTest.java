@@ -17,7 +17,7 @@ public class ShoppingBasketTest {
 
     @Before
     public void setup() {
-        basket = new ShoppingBasket();
+        basket = new ShoppingBasket(true);
         banana = new Banana("banana_test");
         chicken = new Chicken("chicken_test");
         pasta = new Pasta("pasta_test");
@@ -90,7 +90,9 @@ public class ShoppingBasketTest {
     @Test
     public void testCanUseLoyaltyCardForFinalDiscount() {
         basket.addsAndDecidesTwoForOne(chicken);
-        assertEquals(14.7, basket.useLoyaltyCardForFinalDiscount(), 0.0);
+        basket.addsAndDecidesTwoForOne(pasta);
+        basket.addsAndDecidesTwoForOne(banana);
+        assertEquals(26.46, basket.useLoyaltyCardForFinalDiscount(), 0.0);
     }
 
 
