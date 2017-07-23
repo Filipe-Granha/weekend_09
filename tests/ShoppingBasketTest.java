@@ -53,11 +53,18 @@ public class ShoppingBasketTest {
 
 
     @Test
-    public void canRemoveItemByIndex(){
+    public void testCanRemoveItemByIndex(){
         basket.addsAndDecidesTwoForOne(banana);
         basket.addsAndDecidesTwoForOne(chicken);
         Buyable item = basket.removeItemByIndex();
         assertEquals(15, item.price());
     }
 
+    @Test
+    public void testCanRemoveAllItems() {
+        basket.addsAndDecidesTwoForOne((pasta));
+        basket.addsAndDecidesTwoForOne((chicken));
+        basket.addsAndDecidesTwoForOne(banana);
+        assertEquals(0, basket.itemsCount());
+    }
 }
