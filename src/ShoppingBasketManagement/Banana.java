@@ -20,10 +20,3 @@ Banana banana;
 
 }
 
-
-//    public int applyTwoForOne() {
-//        if (!banana.twoForOne()) {
-//            return 1;
-//        }
-//        return 2;
-//    }

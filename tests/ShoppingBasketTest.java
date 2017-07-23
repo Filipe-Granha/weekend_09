@@ -1,3 +1,4 @@
+import Behaviours.Buyable;
 import ShoppingBasketManagement.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,15 +31,33 @@ public class ShoppingBasketTest {
 
     @Test
     public void testNoTwoForOne() {
-        basket.decidesTwoForOne(banana);
+        basket.addsAndDecidesTwoForOne(banana);
         assertEquals(1, basket.itemsCount());
     }
 
     @Test
     public void testTwoForOne() {
-        basket.decidesTwoForOne(chicken);
+        basket.addsAndDecidesTwoForOne(chicken);
         assertEquals(2, basket.itemsCount());
     }
 
+
+    @Test
+    public void testCanAddDifferentItemsToBasket() {
+        basket.addsAndDecidesTwoForOne(banana);
+        basket.addsAndDecidesTwoForOne(chicken);
+        basket.addsAndDecidesTwoForOne(chicken);
+        assertEquals(5, basket.itemsCount());
+    }
+
+
+
+    @Test
+    public void canRemoveItemByIndex(){
+        basket.addsAndDecidesTwoForOne(banana);
+        basket.addsAndDecidesTwoForOne(chicken);
+        Buyable item = basket.removeItemByIndex();
+        assertEquals(15, item.price());
+    }
 
 }

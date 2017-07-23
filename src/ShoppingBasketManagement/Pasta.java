@@ -22,11 +22,3 @@ public class Pasta extends Items implements Buyable{
     }
 
 }
-
-
-//    public int applyTwoForOne() {
-//        if (!pasta.twoForOne()) {
-//            return 1;
-//        }
-//        return 2;
-//    }

@@ -21,16 +21,32 @@ public class ShoppingBasket {
     }
 
 
-    public void decidesTwoForOne(Buyable item) {
-
+    public void addsAndDecidesTwoForOne(Buyable item) {
 
             if(item.twoForOne() == true){
                 this.basket.add(item);
             }
             this.basket.add(item);
         }
+
+
+    public Buyable removeItemByIndex(){
+        if(itemsCount() > 0){
+            return basket.remove(2);
+        }
+        return null;
     }
-//
+
+    }
+
+
+
+
+
+
+
+
+    //
 //    public void noTwoForOne(Buyable item) {
 //        this.basket.add(item);
 //    }
@@ -40,15 +56,6 @@ public class ShoppingBasket {
 //        this.basket.add(item);
 //        this.basket.add(item);
 //    }
-
-
-
-
-
-
-
-
-
 
 //    public int addsTwoForOne() {
 //        int count = 0;

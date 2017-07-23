@@ -20,12 +20,3 @@ Chicken chicken;
     }
 
 }
-
-
-
-//    public int applyTwoForOne() {
-//        if (!chicken.twoForOne()) {
-//            return 1;
-//        }
-//        return 2;
-//    }
