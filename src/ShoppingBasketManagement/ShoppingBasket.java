@@ -25,8 +25,9 @@ public class ShoppingBasket {
 
             if(item.twoForOne() == true){
                 this.basket.add(item);
+                this.basket.add(item);
             }
-            this.basket.add(item);
+          else this.basket.add(item);  //word else has to be there
         }
 
 
@@ -44,17 +45,26 @@ public class ShoppingBasket {
 
 
     public float calculateTotalValueBeforeDiscounts() {
-        float count = 0;
+        float total = 0;
         for(Buyable item : this.basket) {
             if(item.twoForOne() == false) {
-               count += item.price();
+               total += item.price();
             }
-            else count += item.price()/2; // word 'else' has to be there
+            else total += item.price()/2; // word 'else' has to be there
         }
-        return count;
+        return total;
     }
 
 
+    public float calculateTotalValueWithMoreThan20PoundsDiscount() {
+        float count = 0;
+        float total = calculateTotalValueBeforeDiscounts();
+        if(total > 20.0) {
+            count +=  total - total*0.1;
+        }
+        else count = calculateTotalValueBeforeDiscounts();
+        return count;
+    }
 
 }
 
@@ -65,23 +75,5 @@ public class ShoppingBasket {
 
 
 
-    //
-//    public void noTwoForOne(Buyable item) {
-//        this.basket.add(item);
-//    }
-//
-//
-//    public void getsTwoForOne(Buyable item) {
-//        this.basket.add(item);
-//        this.basket.add(item);
-//    }
-
-//    public int addsTwoForOne() {
-//        int count = 0;
-//        for(Buyable item : this.basket) {
-//            count += item.applyTwoForOne();
-//        }
-//        return count;
-//    }
 
 

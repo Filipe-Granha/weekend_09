@@ -70,13 +70,25 @@ public class ShoppingBasketTest {
     }
 
     @Test
-    public void testCanCalculateTotalValue() {
+    public void testCanCalculateTotalValueBeforeDiscounts() {
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
-        assertEquals(40, basket.calculateTotalValueBeforeDiscounts(), 0.0);
+        basket.addsAndDecidesTwoForOne(banana);
+        assertEquals(50, basket.calculateTotalValueBeforeDiscounts(), 0.0);
     }
+
+    @Test
+    public void testCanCalculateTotalValueWithMoreThan20PoundsDiscount() {
+        basket.addsAndDecidesTwoForOne(chicken);
+        basket.addsAndDecidesTwoForOne(pasta);
+        basket.addsAndDecidesTwoForOne(banana);
+
+
+        assertEquals(27, basket.calculateTotalValueWithMoreThan20PoundsDiscount(), 0.0);
+    }
+
 
 
 
