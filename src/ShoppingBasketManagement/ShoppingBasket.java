@@ -37,6 +37,11 @@ public class ShoppingBasket {
         return null;
     }
 
+
+    public void removeAllItems() {
+        this.basket.clear();
+    }
+
     }
 
 

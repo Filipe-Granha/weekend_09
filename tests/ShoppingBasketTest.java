@@ -62,9 +62,10 @@ public class ShoppingBasketTest {
 
     @Test
     public void testCanRemoveAllItems() {
-        basket.addsAndDecidesTwoForOne((pasta));
-        basket.addsAndDecidesTwoForOne((chicken));
+        basket.addsAndDecidesTwoForOne(pasta);
+        basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(banana);
+        basket.removeAllItems();
         assertEquals(0, basket.itemsCount());
     }
 }

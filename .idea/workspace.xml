@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd52e85-103c-4ccc-8fb2-15336906e160" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" afterPath="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ShoppingBasketTest.java" afterPath="$PROJECT_DIR$/tests/ShoppingBasketTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,14 +18,16 @@
       <file leaf-file-name="ShoppingBasket.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="201">
+              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/tests/ShoppingBasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="37" />
+              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
@@ -143,8 +146,8 @@
       <file leaf-file-name="Pasta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#210#211#0" expanded="true" />
@@ -195,8 +198,8 @@
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Banana.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Chicken.java" />
         <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java" />
-        <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" />
         <option value="$PROJECT_DIR$/tests/ShoppingBasketTest.java" />
+        <option value="$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java" />
       </list>
     </option>
   </component>
@@ -427,9 +430,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 09h 31m 22s.xml">
-      <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 09h 32m 43s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
@@ -455,6 +455,9 @@
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 09h 42m 06s.xml">
+      <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_ShoppingBasketCodeTest - 2017.07.23 at 09h 45m 14s.xml">
       <configuration name="All in ShoppingBasketCodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -508,6 +511,8 @@
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -591,6 +596,8 @@
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,21 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Items.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -820,14 +812,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="201">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShoppingBasketManagement/Pasta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/tests/ShoppingBasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="37" />
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
