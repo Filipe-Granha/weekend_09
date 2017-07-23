@@ -27,4 +27,18 @@ public class ShoppingBasketTest {
     public void testBasketIsEmpty() {
         assertEquals(0, basket.itemsCount());
     }
+
+    @Test
+    public void testNoTwoForOne() {
+        basket.decidesTwoForOne(banana);
+        assertEquals(1, basket.itemsCount());
+    }
+
+    @Test
+    public void testTwoForOne() {
+        basket.decidesTwoForOne(chicken);
+        assertEquals(2, basket.itemsCount());
+    }
+
+
 }

@@ -27,11 +27,15 @@ public class BananaTest {
     public void testPrice() {
         assertEquals(10, banana.price());
     }
-
-
-    @Test
-    public void testTwoForOne() {
-        assertEquals(false, banana.twoForOne());
-    }
-
 }
+
+
+
+
+
+
+//    @Test
+//    public void testTwoForOne() {
+//        assertEquals(1, banana.applyTwoForOne());
+//    }
+

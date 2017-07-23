@@ -23,12 +23,18 @@ public class ChickenTest {
     public void testPrice() {
         assertEquals(15, chicken.price());
     }
-
-    @Test
-    public void testTwoForOne() {
-        assertEquals(true, chicken.twoForOne());
-    }
-
-
-
 }
+
+
+
+
+
+
+
+//    @Test
+//    public void testTwoForOne() {
+//        assertEquals(2, chicken.applyTwoForOne());
+//    }
+
+
+

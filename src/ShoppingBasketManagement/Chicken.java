@@ -5,6 +5,7 @@ import Behaviours.Buyable;
 public class Chicken extends Items implements Buyable {
 
 
+Chicken chicken;
 
     public Chicken(String name) { // constructor
         super(name);
@@ -19,3 +20,12 @@ public class Chicken extends Items implements Buyable {
     }
 
 }
+
+
+
+//    public int applyTwoForOne() {
+//        if (!chicken.twoForOne()) {
+//            return 1;
+//        }
+//        return 2;
+//    }

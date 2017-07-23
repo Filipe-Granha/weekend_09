@@ -23,9 +23,15 @@ public class PastaTest {
         assertEquals(5, pasta.price());
     }
 
-    @Test
-    public void testGetTwoForOne() {
-        assertEquals(false, pasta.twoForOne());
-    }
-
 }
+
+
+
+
+
+
+//    @Test
+//    public void testGetTwoForOne() {
+//        assertEquals(1, pasta.applyTwoForOne());
+//    }
+
