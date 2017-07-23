@@ -9,6 +9,7 @@ import java.util.ArrayList;
 public class ShoppingBasket {
 
     private ArrayList<Buyable> basket;
+    private boolean LoyaltyCard;
 
 
     public ShoppingBasket() {
