@@ -2,6 +2,7 @@ package ShoppingBasketManagement;
 
 import Behaviours.Buyable;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 
@@ -46,7 +47,7 @@ public class ShoppingBasket {
     }
 
 
-    public float calculateTotalValueBeforeDiscounts() {
+    public float calculateTotalValueBeforePriceDiscounts() {
         float total = 0;
         for(Buyable item : this.basket) {
             if(item.twoForOne() == false) {
@@ -60,24 +61,24 @@ public class ShoppingBasket {
 
     public float calculateTotalValueWithMoreThan20PoundsDiscount() {
         float count = 0;
-        float total = calculateTotalValueBeforeDiscounts();
+        float total = calculateTotalValueBeforePriceDiscounts();
         if(total > 20.0) {
             count +=  total - total*0.1;
         }
-        else count = calculateTotalValueBeforeDiscounts();
+        else count = total;
         return count;
     }
 
 
-    public float useLoyaltyCardForFinalDiscount() {
+    public BigDecimal useLoyaltyCardForFinalDiscount() {
         float count = 0;
         float total = calculateTotalValueWithMoreThan20PoundsDiscount();
         if(this.loyaltyCard == true) {
             count += total - total*0.02;
         }
-        else count = calculateTotalValueWithMoreThan20PoundsDiscount();
-
-        return count;
+        else count = total;
+        BigDecimal value = new BigDecimal(count); //doesn't correct the decimal cases issue I was expecting
+        return value;
     }
 
 }

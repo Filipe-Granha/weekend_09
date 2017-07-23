@@ -76,7 +76,7 @@ public class ShoppingBasketTest {
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
         basket.addsAndDecidesTwoForOne(banana);
-        assertEquals(50, basket.calculateTotalValueBeforeDiscounts(), 0.0);
+        assertEquals(50, basket.calculateTotalValueBeforePriceDiscounts(), 0.0);
     }
 
     @Test
@@ -92,7 +92,7 @@ public class ShoppingBasketTest {
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
         basket.addsAndDecidesTwoForOne(banana);
-        assertEquals(26.46, basket.useLoyaltyCardForFinalDiscount(), 0.0);
+        assertEquals(26.46, basket.useLoyaltyCardForFinalDiscount());
     }
 
 
