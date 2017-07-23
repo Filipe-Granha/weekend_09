@@ -43,7 +43,7 @@ public class ShoppingBasket {
     }
 
 
-    public float calculateTotalValue() {
+    public float calculateTotalValueBeforeDiscounts() {
         float count = 0;
         for(Buyable item : this.basket) {
             if(item.twoForOne() == false) {

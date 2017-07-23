@@ -73,7 +73,9 @@ public class ShoppingBasketTest {
     public void testCanCalculateTotalValue() {
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
-        assertEquals(20, basket.calculateTotalValue(), 0.0);
+        basket.addsAndDecidesTwoForOne(chicken);
+        basket.addsAndDecidesTwoForOne(pasta);
+        assertEquals(40, basket.calculateTotalValueBeforeDiscounts(), 0.0);
     }
 
 
