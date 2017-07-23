@@ -69,17 +69,25 @@ public class ShoppingBasket {
     }
 
 
-    public BigDecimal useLoyaltyCardForFinalDiscount() {
+    public float useLoyaltyCardForFinalDiscount() {
         float count = 0;
         float total = calculateTotalValueWithMoreThan20PoundsDiscount();
         if(this.loyaltyCard) {
             count += total - total*0.02;
         }
         else count = total;
-        BigDecimal value = new BigDecimal(count); //doesn't correct the decimal cases issue I was expecting
-        return value;
+//        BigDecimal value = new BigDecimal(count); //doesn't correct the decimal cases issue I was expecting
+        return count;
     }
 
+
+    public float calculateTotalDiscounts() {
+        float count = 0;
+        float subTotal = calculateTotalValueBeforePriceDiscounts();
+        float subTotalCard = useLoyaltyCardForFinalDiscount();
+        count += subTotal - subTotalCard;
+        return count;
+    }
 }
 
 

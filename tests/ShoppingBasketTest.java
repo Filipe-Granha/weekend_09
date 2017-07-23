@@ -92,7 +92,16 @@ public class ShoppingBasketTest {
         basket.addsAndDecidesTwoForOne(chicken);
         basket.addsAndDecidesTwoForOne(pasta);
         basket.addsAndDecidesTwoForOne(banana);
-        assertEquals(26.46, basket.useLoyaltyCardForFinalDiscount());
+        assertEquals(26.46, basket.useLoyaltyCardForFinalDiscount(), 0.0);
+    }
+
+
+    @Test
+    public void testValueOfTotalDiscounts() {
+        basket.addsAndDecidesTwoForOne(banana);
+        basket.addsAndDecidesTwoForOne(banana);
+        basket.addsAndDecidesTwoForOne(banana);
+        assertEquals(3.54, basket.calculateTotalDiscounts(), 0.0);
     }
 
 
